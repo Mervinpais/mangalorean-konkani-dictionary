@@ -7,8 +7,8 @@ fetch("words.json")
     words = data;
   });
 
-function searchWord() {
-  const query = document.getElementById("search").value.toLowerCase();
+function searchWordKon() {
+  const query = document.getElementById("searchKon").value.toLowerCase();
   const resultDiv = document.getElementById("result");
 
   const found = words.find(entry => entry.word.toLowerCase() === query);
@@ -19,3 +19,20 @@ function searchWord() {
     resultDiv.innerHTML = `<p>Word not found 😢</p>`;
   }
 }
+
+function searchWordEng() {
+  const query = document.getElementById("searchEng").value.toLowerCase();
+  const resultDiv = document.getElementById("result");
+
+  // Search either word OR meaning
+  const found = words.find(entry => 
+      entry.word.toLowerCase() === query || entry.meaning.toLowerCase() === query
+  );
+
+  if (found) {
+    resultDiv.innerHTML = `<p><b>${found.word}</b>: ${found.meaning}</p>`;
+  } else {
+    resultDiv.innerHTML = `<p>Word not found 😢</p>`;
+  }
+}
+
