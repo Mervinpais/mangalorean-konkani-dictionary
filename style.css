@@ -1,0 +1,20 @@
+body {
+    background-color: #3a3a3a;
+    color: White;
+}
+
+table {
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+}
+
+td, th {
+    border: none;
+    padding: 10px;
+}
+
+input {
+    background-color: #292929;
+    color: white;
+}

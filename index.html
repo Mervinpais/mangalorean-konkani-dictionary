@@ -4,19 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mangalorean Konkani Dictionary</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <h1>Mangalorean Konkani Dictionary</h1>
   <h3>Preserving our language through tech :)</h3>
+  <p>This translator has been made with the help of my mother and father in catholic konkani, not GSB or other dialects</p>
 
   <input type="text" id="searchKon" placeholder="Type a Konkani word...">
-  <button onclick="searchWordKon()">Search</button>
+  <button onclick="searchWord('Kon')">Search</button>
   <input type="text" id="searchEng" placeholder="Type a English word...">
-  <button onclick="searchWordEng()">Search</button>
-
-
-  <div id="result"></div>
+  <button onclick="searchWord('Eng')">Search</button>
+<br>
+<div id="result"></div>
+<br>
+  <h2>Newest Words Added</h2>
+<table id="wordsTable" border="1">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Konkani</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- JS will fill this -->
+  </tbody>
+</table>
 
   <script src="script.js"></script>
 </body>
