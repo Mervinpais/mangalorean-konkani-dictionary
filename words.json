@@ -1,9 +1,34 @@
 [
-  { "word": "maka", "meaning": "to me" },
-  { "word": "borum", "meaning": "good" },
-  { "word": "asa", "meaning": "is" },
-  { "word": "hanv", "meaning": "I" },
-  { "word": "gotta", "meaning": "know" },
-  { "word": "", "meaning": "know" }
+  {
+    "word": "maka",
+    "meaning": "to me"
+  },
+  {
+    "word": "borum",
+    "meaning": "good"
+  },
+  {
+    "word": "asa",
+    "meaning": "is"
+  },
+  {
+    "word": "hanv",
+    "meaning": "I"
+  },
+  {
+    "word": "gotta",
+    "meaning": "know"
+  },
+  {
+    "word": "House",
+    "meaning": "Ghar"
+  },
+  {
+    "word": "Water",
+    "meaning": "udak"
+  },
+  {
+    "word": "Clothes",
+    "meaning": "vostur"
+  }
 ]
-
